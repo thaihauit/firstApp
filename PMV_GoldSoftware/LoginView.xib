@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginView" customModule="PMV_GoldSoftware" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNh-KM-G00">
+                    <rect key="frame" x="0.0" y="7" width="300" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="0.69469288789999994" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-5H-04l">
+                    <rect key="frame" x="0.0" y="162" width="300" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.79199892240000003" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="ĐĂNG NHẬP">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedButtonLogin:" destination="iN0-l3-epB" eventType="touchUpInside" id="uXC-tI-Dez"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eeF-2k-o50">
+                    <rect key="frame" x="0.0" y="65" width="300" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="0.69469288789999994" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="246" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08I-eo-t0R">
+                    <rect key="frame" x="0.0" y="355" width="300" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.79199892240000003" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="ĐĂNG KÍ MỚI">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedButtonNewRegister:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ryk-f8-dd4"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" verticalHuggingPriority="247" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ns-kd-5to">
+                    <rect key="frame" x="0.0" y="220" width="300" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PY8-53-NEl" userLabel="line 1">
+                            <rect key="frame" x="2" y="22" width="120" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91N-wh-SQg" userLabel="line 2">
+                            <rect key="frame" x="180" y="22" width="120" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hoặc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Om9-w3-tvG">
+                            <rect key="frame" x="127" y="0.0" width="46" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xeg-mO-SHb">
+                    <rect key="frame" x="152" y="123" width="148" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <state key="normal" title="Quên mật khẩu?">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedButtonForgetPassword:" destination="iN0-l3-epB" eventType="touchUpInside" id="vs8-bd-peh"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XtN-RA-Qqa">
+                    <rect key="frame" x="0.0" y="279" width="300" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCZ-NC-fUb">
+                            <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="facebook-ic.png"/>
+                            <connections>
+                                <action selector="didTappedButtonLoginByFacebook:" destination="iN0-l3-epB" eventType="touchUpInside" id="H48-ax-11q"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIo-UZ-ayb">
+                            <rect key="frame" x="182" y="0.0" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="google-ic.png"/>
+                            <connections>
+                                <action selector="didTappedButtonLoginByGoogle:" destination="iN0-l3-epB" eventType="touchUpInside" id="I91-vj-ypJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnLogin" destination="TMb-5H-04l" id="YN4-vg-S44"/>
+                <outlet property="btnNewRegister" destination="08I-eo-t0R" id="t9D-b0-oBD"/>
+                <outlet property="txtEmail" destination="UNh-KM-G00" id="UD9-De-Oa3"/>
+                <outlet property="txtPassword" destination="eeF-2k-o50" id="A80-vq-8gz"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="-226"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebook-ic.png" width="64" height="64"/>
+        <image name="google-ic.png" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_PMV_GoldSoftware {
+  umbrella header "Pods-PMV_GoldSoftware-umbrella.h"
+
+  export *
+  module * { export * }
+}

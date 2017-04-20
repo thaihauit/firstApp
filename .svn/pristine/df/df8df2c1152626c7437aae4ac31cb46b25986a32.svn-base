@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87428931-4fa6-6448-9fbb-941f21060417",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "87428931-4fa6-6448-9fbb-941f21060417" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87428931-4fa6-6448-9fbb-941f21060417" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7A4B47C-C00A-4177-912D-25A37F81A0D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87428931-4fa6-6448-9fbb-941f21060417" : "GoldSoftware-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PMV_GoldSoftware",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PMV_GoldSoftware.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/pmv-ad01:8087\/svn\/GoldSoftware-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87428931-4fa6-6448-9fbb-941f21060417"
+    }
+  ]
+}

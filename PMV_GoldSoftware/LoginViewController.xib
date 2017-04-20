@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="PMV_GoldSoftware" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewLogin" destination="7Vt-9i-hgr" id="UQ5-Cp-UdQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-D1-LuH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.63340517241379313" colorSpace="calibratedRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mNe-BX-xO4">
+                    <rect key="frame" x="27.5" y="49.5" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vt-9i-hgr">
+                            <rect key="frame" x="10" y="84" width="300" height="400"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="400" id="AZ1-5e-W8U"/>
+                                <constraint firstAttribute="width" constant="300" id="GZS-gU-pIB"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_pmv_login.png" translatesAutoresizingMaskIntoConstraints="NO" id="sfh-c2-Wuo" customClass="SpringImageView" customModule="Spring">
+                            <rect key="frame" x="100" y="8" width="121" height="68"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="121" id="AHh-ql-4w3"/>
+                                <constraint firstAttribute="height" constant="68" id="P73-zC-nse"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="animation" value="wobble"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="6Cp-wS-M1T"/>
+                        <constraint firstItem="sfh-c2-Wuo" firstAttribute="centerX" secondItem="mNe-BX-xO4" secondAttribute="centerX" id="T1Y-rk-xvl"/>
+                        <constraint firstItem="7Vt-9i-hgr" firstAttribute="centerY" secondItem="mNe-BX-xO4" secondAttribute="centerY" id="adS-ga-pPs"/>
+                        <constraint firstItem="sfh-c2-Wuo" firstAttribute="top" secondItem="mNe-BX-xO4" secondAttribute="top" constant="8" id="fD6-Sl-ngL"/>
+                        <constraint firstAttribute="height" constant="568" id="rmb-wN-z63"/>
+                        <constraint firstItem="7Vt-9i-hgr" firstAttribute="centerX" secondItem="mNe-BX-xO4" secondAttribute="centerX" id="sMe-ew-HGs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jKG-D1-LuH" secondAttribute="bottom" id="C5p-1v-xbG"/>
+                <constraint firstItem="mNe-BX-xO4" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="cXg-w3-GbJ"/>
+                <constraint firstAttribute="trailing" secondItem="jKG-D1-LuH" secondAttribute="trailing" id="ho7-3U-ZC3"/>
+                <constraint firstItem="mNe-BX-xO4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tCw-1y-elc"/>
+                <constraint firstItem="jKG-D1-LuH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vIs-PS-gqE"/>
+                <constraint firstItem="jKG-D1-LuH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xsd-b9-Ggf"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="force">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="velocity">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="x">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="scaleX">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="scaleY">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="rotate">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="77" y="-321"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_pmv_login.png" width="229" height="113"/>
+    </resources>
+</document>
